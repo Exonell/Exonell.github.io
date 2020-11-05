@@ -1,0 +1,220 @@
+/* Allgemein */
+body {
+	margin:0;
+	padding:0;
+	background-image:url("../img/backgroundimg.jpg");
+	background-attachment:fixed;
+	background-size:cover;
+}
+
+main {
+	background-color:rgba(0, 0, 0, 0.7);
+	width:80%;
+	box-sizing:border-box;
+	margin-left:auto;
+	margin-right:auto;
+	padding:2%;
+	border-top:0px;
+	border-bottom:1px;
+	border-left:1px;
+	border-right:1px;
+	border-style:solid;
+	border-color:#fff;
+}
+
+#nav{
+	z-index:5;
+	background-color: #6b665a;
+	box-sizing: border-box;
+	width: 100%;
+	vertical-align: top;
+	font-size: 0;
+	position: sticky;
+	top:0px;
+	border:1px;
+	border-style:solid;
+	border-color:#fff;
+}
+
+#nav a{
+	display: inline-block;
+	width:17.9%;
+	font-size: 20px;
+	text-align:center;
+	color:#fff;
+	text-decoration: none;
+	padding-top:0.2%;
+	padding-bottom:0.2%;
+	padding-left:1px;
+	padding-right:1px;
+}
+
+#nav a:hover{
+	color:#d6d6d6;
+	background-color:#1f1e15;
+	border-top:0px;
+	border-left:1px;
+	border-right:1px;
+	border-bottom:0px;
+	border-style:solid;
+	border-color:#fff;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+#aktuelle_Seite {
+	background-color:#1f1e15;
+}
+
+
+#unterseiten_img {
+	border:1px;
+	border-style:solid;
+	border-color:#000;
+}
+
+h1 {
+	text-align:center;
+	font-size:4vw;
+	color:#ffd357;
+}
+
+h2 {
+	color:#fff;
+	text-align:center;
+	font-size:2.8vw;
+	
+}
+
+.h2_version2 {
+	text-align:center;
+	font-size:3.5vw;
+	color:#fff;
+}
+
+p {
+	color:white;
+	font-size:1.5vw;
+}
+
+#unterseiten_definition {
+		text-align:center;
+}
+
+.centerBox {
+	text-align:center;
+}
+
+/* Home */
+
+
+.image {
+	border:1px;
+	border-style:solid;
+	border-color:#000;
+	opacity:1;
+	transition: .2s ease;
+	backface-visibility: hidden;  
+}
+
+.image:hover {
+	opacity:0.5;
+}
+
+/* Handwerk und Set Gegenstände */
+.twoBox_handwerk {
+	vertical-align:top;
+	display: inline-block;
+    width: 47%;
+    height: 72vh;
+	margin:1%;
+    overflow: auto;
+	border-top:1px;
+	border-left:0px;
+	border-right:0px;
+	border-bottom:1px;
+	border-style:solid;
+	border-color:#fff;
+}
+
+.doubleBox_sets {
+	vertical-align:top;
+	display: inline-block;
+	width: 40%;
+	height:510px;
+	margin:1%;
+}
+.doubleBox_sets h2 {
+	font-size:3vw;
+}
+
+.twoBox_sets {
+	vertical-align:top;
+	display: inline-block;
+    width: 47%;
+    height: 50vh;
+	margin:1%;
+    overflow: auto;
+	border-top:1px;
+	border-left:0px;
+	border-right:0px;
+	border-bottom:1px;
+	border-style:solid;
+	border-color:#fff;
+}
+
+.twoBox_sets::-webkit-scrollbar {
+	display:none;
+}
+
+.setBox {
+	margin:5%;
+	border:3px;
+	border-style:solid;
+	border-color:#ffd357;
+	background-color:#1f1e15;
+}
+
+.setBox h2 {
+	color:#ffd357;
+	font-size:2vw;
+}
+
+.setBox p {
+	font-size:1.2vw;
+}
+
+.englische_Benennung {
+	font-style:italic;
+	color:#a6a083;
+}
+
+.erhalt_verfügbarkeit {
+	color:#a8caff;
+}
+
+.doubleBox {
+	vertical-align:top;
+	 display: inline-block;
+	width: 40%;
+	margin:1%;
+}
+
+/* Karten */
+
+.gallerie {
+	margin:2%;
+	float:left;
+}
+
+.gallerie img {
+	width:32%;
+	height:auto;
+		border:1px;
+	border-style:solid;
+	border-color:#000;
+}
+
+.gallerie img:hover {
+	border-color:#fff;
+}
